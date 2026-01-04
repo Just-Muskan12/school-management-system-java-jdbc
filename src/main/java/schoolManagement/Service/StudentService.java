@@ -17,8 +17,8 @@ public StudentService() {
 static Connection con;
 static {
 	 String url = "jdbc:postgresql://localhost:5432/student";
-	 String user = "postgres";
-	 String pswd = "123";
+	 String user = "Postgress";
+	 String pswd = "125";
 	 try {
 		System.out.println("driver loaded");
 		Class.forName("org.postgresql.Driver");
